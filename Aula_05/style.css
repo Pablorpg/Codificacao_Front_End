@@ -1,0 +1,15 @@
+
+h1{
+    color: aquamarine;
+    color: cornflowerblue
+
+}
+p{
+    color: cadetblue;
+    font-size: 20px;
+}
+body{
+    background-color: black;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    background: linear-gradient(to right, rgb(148, 72, 158) ,  blue 70%);
+}

@@ -1,0 +1,53 @@
+
+.Nav-bar{
+    background-color: rgb(138, 163, 169);
+    
+    height: 30px;
+    padding: 5px;
+
+}
+
+.titulo{
+    color: aliceblue;
+
+}
+
+.primeiro-texto{
+    color: aliceblue;
+    font-size: 20px;
+}
+
+.segundo-texto{
+    color: aliceblue;
+    font-size: 20px;
+}
+
+.terceiro-texto{
+    color: aliceblue;
+    font-size: 20px;
+}
+
+body{
+    background-color: black;
+    
+}
+
+a{ 
+    margin-left: 50px;
+    margin-right: 10px;
+    font-size: 20px;     
+    text-decoration: dashed;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+.texto-final{
+    color: aliceblue;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 20px;
+}
+
+img{
+    width: 100%;
+}
