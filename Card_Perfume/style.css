@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap');
 
+
 .imagem{
     margin: 0;
     height: 100vh;
@@ -27,11 +28,11 @@ img{
 }
 
 body{
-    background-color: antiquewhite;
+    background-color: hsl(30, 38%, 92%);
 }
 
 .perf{
-    margin-top: 20px;
+    margin-top: 25px;
     margin-left: 30px;
     font-size: 14px;
     display: block;
@@ -39,6 +40,7 @@ body{
     font-optical-sizing: auto;
     font-weight: 500, 700;
     font-style: normal;
+    color: hsl(228, 12%, 48%);
 }
 
 h1{
@@ -71,6 +73,7 @@ h2{
     font-optical-sizing: auto;
     font-weight: 500, 700;
     font-style: normal;
+    color: hsl(228, 12%, 48%);
 }
 
 .pp{
@@ -80,7 +83,7 @@ h2{
 .dinheiro{
     font-size: 18px;
     display: flex;
-    color: rgb(0, 139, 102);
+    color: hsl(158, 36%, 37%);
     font-family: "Fraunces", serif;
     font-optical-sizing: auto;
     font-weight: 100;
@@ -95,7 +98,7 @@ h2{
     margin-top: 20px;
     font-size: 11px;
     margin-bottom: 20px;
-    color: rgb(57, 57, 53);
+    color: hsl(228, 12%, 48%);
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
     font-weight: 500, 700;
@@ -107,7 +110,7 @@ h2{
     width: 220px;
     height: 55px;
     margin-left: 30px;
-    background-color: rgb(0, 139, 102);
+    background-color: hsl(158, 36%, 37%);
     border-radius: 10px;
 }
 
@@ -117,7 +120,7 @@ h2{
     font-optical-sizing: auto;
     font-weight: 500, 700;
     font-style: normal;
-    margin-left: 60px;
+    margin-left: 55px;
     padding: 1px;
 }
 
@@ -132,5 +135,9 @@ h2{
 }
 
 .add{
-    font-weight: 500;
+    font-weight: 600;
+    display: flex;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 17px;
 }
