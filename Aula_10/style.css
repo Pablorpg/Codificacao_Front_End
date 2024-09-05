@@ -1,0 +1,28 @@
+.container-1{
+    height: 200px;
+    background-color: rgb(122, 218, 218);
+    display: flex;
+    padding: 20px;
+}
+
+.item-1{
+    background-color: coral;
+}
+
+.item-2{
+    background-color: cadetblue;
+}
+
+.item-3{
+    background-color: burlywood;
+}
+
+.container-2{
+    background-color: cornflowerblue;
+    height: 200px;
+}
+
+.container-3{
+    background-color: blanchedalmond;
+    height: 200px;
+}
