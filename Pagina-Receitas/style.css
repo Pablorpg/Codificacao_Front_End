@@ -1,15 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
 
+:root{
+    --White: hsl(0, 0%, 100%);
+    --Stone-100: hsl(30, 54%, 90%);
+    --Stone-150: hsl(30, 18%, 87%);
+    --Stone-600: hsl(30, 10%, 34%);
+    --Stone-900: hsl(24, 5%, 18%);
+    --Brown-800: hsl(14, 45%, 36%);
+    --Rose-800: hsl(332, 51%, 32%);
+    --Rose-50: hsl(330, 100%, 98%);
+}
+
 body{
-    background-color: antiquewhite;
+    background-color: var(--Stone-100);
     justify-content: center;
     display: flex;
 }
 
 .fundo{
-    background-color: white;
-    height: 262vh;
+    background-color: var(--White);
+    height: 152vh;
     width: 700px;
     border-radius: 10px;
     padding: 20px;
@@ -42,12 +53,12 @@ img{
     font-style: normal;
     font-size: 16px;
     margin-left: 15px;
-    color: hsl(30, 10%, 34%);
+    color: var(--Stone-600);
     font-weight: 250;
 }
 
 .quadrado-rosa{
-    background-color: rgb(255, 245, 250);
+    background-color: var(--Rose-50);
     height: 150px;
     width: 95%;
     margin-top: 35px;
@@ -63,7 +74,7 @@ img{
     font-size: 16px;
     padding: 20px;
     margin-left: 7px;
-    color: rgb(123, 40, 79);
+    color: var(--Rose-800);
     font-weight: 600;
     padding-bottom: 0px;
 }
@@ -77,16 +88,16 @@ img{
     font-weight: 400;
     font-style: normal;
     font-size: 16px;
-    color: hsl(30, 10%, 34%);
+    color: var(--Brown-800);
     font-weight: 150
 }
 
 .lista-tempo li::marker{
-    color: rgb(123, 40, 79);
+    color: var(--Rose-800);
 }
 
 .stone{
-    color: hsl(24, 5%, 18%);
+    color: var(--Stone-600);
     font-weight: 900;
 }
 
@@ -97,7 +108,7 @@ img{
     margin-top: 25px;
     margin-left: 15px;
     font-size: 20px;
-    color: rgb(133, 70, 50);
+    color: var(--Brown-800);
 }
 
 .lista-ingredientes li{
@@ -106,14 +117,15 @@ img{
     margin-top: 10px;
     font-family: "Outfit", sans-serif;
     font-optical-sizing: auto;
-    font-weight: 400;
+    font-weight: 320;
     font-style: normal;
     font-size: 16px;
-    color: hsl(24, 5%, 18%);
+    color: var(--Stone-600);
 }
 
 .lista-ingredientes li::marker{
-    color:rgb(133, 70, 50);
+    color: var(--Brown-800);
+    
 }
 
 .ul-ingredientes{
@@ -123,6 +135,7 @@ img{
 
 .li-ingredientes{
     padding-left: 40px;
+    
 }
 
 .titulo-instrucoes{
@@ -132,7 +145,7 @@ img{
     margin-top: 25px;
     margin-left: 15px;
     font-size: 20px;
-    color: rgb(133, 70, 50);
+    color: var(--Brown-800);
 }
 
 .titulo-instrucoes ol{
@@ -144,6 +157,48 @@ img{
     
 }
 
+.t-um{
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.t-dois{
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.t-tres{
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.t-quatro{
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.t-cinco{
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.t-seis{
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
 .ol-instrucoes{
     padding: 0px;
     padding-left: 25px;
@@ -153,12 +208,12 @@ img{
 .li-instrucoes{
     padding-left: 20px;
     margin-top: 10px;
-    color: hsl(30, 10%, 34%);
+    color: var(--Stone-600);
     font-weight: 600;
 }
 
 .ol-instrucoes li::marker{
-    color: rgb(133, 70, 50);
+    color: var(--Brown-800);
     font-weight: 900;
     
 }
@@ -170,7 +225,7 @@ img{
     margin-top: 25px;
     margin-left: 15px;
     font-size: 20px;
-    color: rgb(133, 70, 50);
+    color: var(--Brown-800);
 }
 
 .paragrafo-nutricao{
@@ -180,7 +235,7 @@ img{
     font-style: normal;
     font-size: 16px;
     margin-top: 15px;
-    color: hsl(30, 10%, 34%);
+    color: var(--Stone-600);
 }
 
 .calorias{
@@ -192,16 +247,16 @@ img{
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
-    color: hsl(30, 10%, 34%);
+    color: var(--Stone-600)
 }
 
 .kcal{
     margin-left: 245px;
     font-family: "Outfit", sans-serif;
     font-optical-sizing: auto;
-    font-weight: 800;
+    font-weight: 700;
     font-style: normal;
-    color: hsl(14, 45%, 36%);
+    color: var(--Brown-800);
 }
 
 .carbs{
@@ -213,16 +268,16 @@ img{
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
-    color: hsl(30, 10%, 34%);
+    color: var(--Stone-600);
 }
 
 .cg{
     margin-left: 260px;
     font-family: "Outfit", sans-serif;
     font-optical-sizing: auto;
-    font-weight: 800;
+    font-weight: 700;
     font-style: normal;
-    color: hsl(14, 45%, 36%);
+    color: var(--Brown-800);
 }
 
 
@@ -235,16 +290,16 @@ img{
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
-    color: hsl(30, 10%, 34%);
+    color: var(--Stone-600);
 }
 
 .pg{
     margin-left: 251px;
     font-family: "Outfit", sans-serif;
     font-optical-sizing: auto;
-    font-weight: 800;
+    font-weight: 700;
     font-style: normal;
-    color: hsl(14, 45%, 36%);
+    color: var(--Brown-800);
 }
 
 
@@ -257,14 +312,14 @@ img{
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
-    color: hsl(30, 10%, 34%);
+    color: var(--Stone-600);
 }
 
 .fg{
     margin-left: 280px;
     font-family: "Outfit", sans-serif;
     font-optical-sizing: auto;
-    font-weight: 800;
+    font-weight: 700;
     font-style: normal;
-    color: hsl(14, 45%, 36%);
+    color: var(--Brown-800);
 }
