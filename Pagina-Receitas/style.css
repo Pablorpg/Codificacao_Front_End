@@ -13,6 +13,8 @@
 }
 
 body{
+    margin-top: 100px;
+    padding-bottom: 100px;
     background-color: var(--Stone-100);
     justify-content: center;
     display: flex;
