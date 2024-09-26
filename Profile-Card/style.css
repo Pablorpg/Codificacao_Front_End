@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+    font-family: "Inter", sans-serif;
+}
+
+:root{
+    --Green: hsl(75, 94%, 57%);
+    --White: hsl(0, 0%, 100%);
+    --Grey-700: hsl(0, 0%, 20%);
+    --Grey-800: hsl(0, 0%, 12%);
+    --Grey-900: hsl(0, 0%, 8%);
+}
+
+body{
+    background-color: var(--Grey-900);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 120px;
+}
+
+.container{
+    width: 400px;
+    height: 635px;
+    background-color: var(--Grey-800);
+    border-radius: 10px;
+    text-align: center;
+}
+
+img{
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    margin-top: 50px;
+    color: var(--White);
+}
+
+.titulo{
+    margin-top: 20px;
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    color: var(--White);
+    font-size: 25px;
+}
+
+.p-paragrafo{
+    margin-top: 10px;
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    color: var(--White);
+    font-size: 14px;
+    color: var(--Green);
+}
+
+.s-paragrafo{
+    margin-top: 25px;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    color: var(--White);
+    font-size: 14px;
+    color: var(--White);
+}
+
+.git{
+    height: 45px;
+    width: 300px;
+    border-radius: 5px;
+    border: 0px;
+    margin-top: 25px
+}
+
+.frontend{
+    height: 45px;
+    width: 300px;
+    border-radius: 5px;
+    border: 0px;
+}
+
+.linkedIn{
+    height: 45px;
+    width: 300px;
+    border-radius: 5px;
+    border: 0px;
+}
+
+.twitter{
+    height: 45px;
+    width: 300px;
+    border-radius: 5px;
+    border: 0px;
+}
+
+.instagram{
+    height: 45px;
+    width: 300px;
+    border-radius: 5px;
+    border: 0px;
+}
+
+button{
+    margin: 10px;
+    background-color: var(--Grey-700);
+    font-weight: 600;
+    color: var(--White);
+}
+
+button:hover{
+    background-color: var(--Green);
+    color: var(--Grey-900);
+    font-weight: 800;
+}
