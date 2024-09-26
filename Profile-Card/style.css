@@ -2,6 +2,7 @@
 
 * {
     font-family: "Inter", sans-serif;
+    text-decoration: none;
 }
 
 :root{
@@ -110,3 +111,16 @@ button:hover{
     color: var(--Grey-900);
     font-weight: 800;
 }
+
+a:hover{
+    color: var(--Grey-900);
+}
+
+a{
+    color: var(--White);
+}
+
+a:visited{
+    color: var(--Grey-900);
+}
+
