@@ -12,30 +12,36 @@
 
 
 @media(max-width: 900px){
-    .container{
+    body{
+        display: flex;
         flex-direction: column;
         align-items: center;
-        justify-content: center;
-        height: auto;
-    }
-    img{
-        border-radius: 10px;
-        width: 100%;
-        height: auto;
-        content: url(desafio_frontend_01/images/image-product-mobile.jpg);
     }
 
-    .fundo{
-        width: 100%;
+    .container{
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .container-mobile{
+        display: block;
+    }
+
+
+    img{
         border-radius: 10px;
-        display: none;
-        
+        content: url(desafio_frontend_01/images/image-product-mobile.jpg);
+        width: 100%;
+        margin: 0px;
+        border-bottom-left-radius: 0px;
     }
 
     .icon-cart{
-        content: url(desafio_frontend_01/images/);
+        content: url(desafio_frontend_01/images/icon-cart.svg);
     }
-    
+
+
 }
 
 .container{
