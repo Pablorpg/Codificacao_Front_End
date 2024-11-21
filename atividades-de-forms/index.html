@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <div class="container">
+        <h1 class="txt-titulo">Contact Us</h1>
+
+        <form id="formulario" class="formulario">
+            <div class="nome-container">
+                <div>
+                    <label for="primeiro-nome-1">First Name *</label>
+                    <input id="primeiro-nome-1" type="text">
+                </div>
+                
+                <div>
+                    <label for="segundo-nome">Last Name *</label>
+                    <input id="segundo-nome" type="text">
+                </div>
+
+            </div>
+
+            <div class="email">
+                <label for="add-email">Email Adress *</label>
+                <input id="txt-email" type="text">
+            </div>
+
+            <p class="txt-paragrafo">Query Type *</p>
+
+            <div class="query-container">
+                <div class="general">
+                    <input id="circulo" type="radio" name="opcao">
+                    <label for="circulo" class="txt-circulo">General Enquiry</label>
+                </div>
+            
+                <div class="suporte">
+                    <input id="circulo" type="radio" name="opcao">
+                    <label for="circulo" class="txt-circulo-2">Support Request</label>
+                </div>
+            </div>
+            
+            
+            <div class="msg">
+                <label for="mensagem">Message *</label>
+                <input id="mensagem" type="text">
+            </div>
+
+            <div class="quadrado"></div>
+            <input id="quadrado" type="checkbox">
+            <p class="txt-quadrado">I consent to being contacted by the team</p>
+
+            <button id="submit" >Submit</button>
+
+        </form>
+        
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
